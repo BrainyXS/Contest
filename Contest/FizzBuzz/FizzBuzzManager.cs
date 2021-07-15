@@ -30,7 +30,7 @@ namespace FizzBuzz
                 var input = Console.ReadLine();
                 if (int.TryParse(input, out var converted))
                 {
-                    Console.WriteLine("Einfabe Erfolgreich! Starte Programm");
+                    Console.WriteLine("Eingabe Erfolgreich! Starte Programm");
                     return converted;
                 }
 
